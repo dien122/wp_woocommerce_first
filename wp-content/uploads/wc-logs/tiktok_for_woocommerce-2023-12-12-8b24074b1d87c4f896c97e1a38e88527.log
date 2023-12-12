@@ -1,0 +1,33 @@
+2023-12-12T10:12:43+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6578321b06734httplocalhostwordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/wordpress\/wp-admin\/"}
+ ajax: no
+2023-12-12T10:12:43+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 202312121012430365397123A7DE4A5F32,202312121012430365397123A7DE4A5F32
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 0165882ea287eaefbfff6c6ddc126ab602319ae0196e5e0efcd7085ccbf8399aded4f1cdb8851d5b8059510c591c7e429f4af47c0049dc5d866d9b9269f8fc33ee7b9449d0301e377f09f4fc1d49dd922b4040aea7bb7ff3e3f06b07f86eb910fe2ba90748cddae724aaad5ccdbc4c2816
+x-tt-trace-id: 00-2312121012430365397123A7DE4A5F32-7C30C8141B07C046-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 207
+X-Origin-Response-Time: 84,23.48.107.7
+X-Akamai-Request-ID: 13b045a6.653d555
+Date: Tue, 12 Dec 2023 10:12:44 GMT
+X-Cache: TCP_MISS from a23-32-74-84.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52660090) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-48-107-7.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52660090) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=26, origin; dur=83
+Server-Timing: inner; dur=44
+X-Parent-Response-Time: 107,23.32.74.84
+
+{"code":0,"msg":"ok","data":{"external_data_key":"37531c8f-4741-41e3-ae3f-6823bc9aa104","redirect_uri":"http:\/\/localhost\/wordpress\/wp-admin\/","app_id":"7311649091191373825","app_secret":"4fc1014b10b3ce81206a08463a42f8d3509ac51d"}}
+
+2023-12-12T10:24:18+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-12-12T10:24:18+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-12-12T10:24:51+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2023-12-12T10:24:51+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
